@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+@media (max-width: 768px){
+
+#text_texto_principal{
+	color: blue;
+}
+#btn{
+	background: yellow;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px black;
+	color: black;
+}
+#ds_formulario{
+	margin-left: 0px;
+	background-color: purple;
+	color: green;
+	width: 300px;
+}
+
+}
+
+#text_texto_principal{
+	text-align: center;
+	font-family: 'Mate SC', serif;
+	text-shadow: 1px 1px 1px black;
+
+}
+.row{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+
+
+
+#ds_formulario{
+
+	background-color: white;
+	padding: 20px;
+	margin-right:20px ;
+	border-radius: 20px;
+	width: 400px;
+	margin-top: 30px;
+	box-shadow: 2px 2px black;
+}
+
+.input{
+
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+.btn{
+
+	background: green;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Mate SC', serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	font-shadow: 2px 2px 1px black;
+	margin-left: 280px;
+
+}

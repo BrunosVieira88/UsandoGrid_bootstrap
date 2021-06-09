@@ -1,52 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-   	<link rel="stylesheet" type="text/css" href="reset.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Curso de bootstrap 3</title>
-    <meta name="description" content="curso de bootstrap 3">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
 </head>
 <body>
 
-  <header>	
-	<div  style="text-align: center; background: lightgrey;">
+		<header>
 
-		<div class="container">
+			<div class="col-12" id="text_texto_principal">
 
-			<div class="col-xs-6 col-md-4 col-lg-4">
-				<h1 style="font-size: 36px;">Empresa X</h1>
-				<p>nossa Empresa Y</p>
+			 	 <h1>TESTE CANDIDATO NEWI</h1>
 
 			</div>
-			<h2 class="col-xs-4 col-md-4 col-lg-4">Menu</h2>
-			<h3 class="col-xs-2 col-md-4 col-lg-4">Sobre nos</h3>
-		</div>
+
+		</header>
+
+
+<section class="col-md-12">
+
+		<div class="col-md-4"></div>
+			
+  <div class="col-md-4">
+	
+
+	<div  id="ds_formulario">
+
+	 <div class="col-auto "   style="margin-top:5px; padding: 10px;">
+		Nome: <input class="input" type="text" autocomplete="off" maxlength="200" name="txt_nome" id="txt_nome"   placeholder="Nome" required />
+	 </div>
+
+	  <div class="col-auto" style="margin-top:5px; padding: 10px;">
+		 Nascimento: <input class="input" style="padding: 2px; margin-left: 5px;" type="date"  name="txt_nascimento" id="txt_nascimento"   required />
+	  </div>
+
+
+	  <div class="col-auto" style="margin-top:5px; padding: 10px;">
+
+		  Masculino: <input  type="radio" style="margin-right:25px;" autocomplete="off"  name="txt_genero" id="txt_masculino" form-control  value="M"  checked/>
+                        
+         Feminino: <input type="radio"  autocomplete="off"  name="txt_genero" id="txt_feminino"  value="F" placeholder="Nome"/>
+	  </div>	
+
+	 <div class="col-auto" style="margin-top:5px;">			
+		E-mail: <input class="input"  type="email" autocomplete="off" maxlength="200" name="txt_email" id="txt_email" placeholder="E-mail" required/>
+						
 	</div>
-  </header>
 
-  <section class="row">
-  	
-  		<div class="col-xs-3 col-md-4 col-lg-4">
-  			<p>texto</p>
-  		</div>
-  		
-  		<div class="col-xs-3 col-md-4 col-lg-4">
-  				<p>texto</p>
-  		</div>
+	 <div class="col-auto" style="margin-top:5px; padding: 10px;">
 
-  		<div class="col-xs-3 col-md-2 col-lg-2">
-  				<p>texto</p>
-  		</div>
+		Tel:<input class="input" type="text" maxlength="11" style="margin-left: 35px;" autocomplete="off" maxlength="200" name="txt_telefone" id="txt_telefone"  placeholder="Telefone" required/>
 
-  		<div class="col-xs-3 col-md-2 col-lg-2">
-  				<p>texto</p>
-  		</div>
+	</div>
 
-   </section>
+	 <div class="col-auto" style="margin-top:5px; padding: 10px;">
+		Cidade: <input  class="input" type="text" autocomplete="off" maxlength="200" name="txt_cidade" id="txt_cidade"  placeholder="cidade" required />
+	</div>
 
-<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	 <div class="col-auto" style="margin-top:5px; padding: 10px;">
+
+		Estado: <input class="input" type="text" autocomplete="off" minlength="2" name="txt_estado" id="txt_estado"  placeholder="estado" />
+	</div>	
+	 
+  </div>
+  <div class="col-md-4"></div>
+</section>
+
+
 </body>
 </html>
